@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet" />
+    <title>Custom Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css">
+</head>
+
+<style>
+
+</style>
+
+<body>
+    <nav class="custom-navbar" id="header">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="/images/common/jea-logo.svg" alt="Logo" height="50">
+            </a>
+        </div>
+
+        <div class="nav-links">
+            <ul class="list-unstyled d-flex mb-0">
+                <li><a href="#" class="nav-item">ABOUT JEA</a></li>
+                <li><a href="#" class="nav-item">OUR PROCESS</a></li>
+                <li class="nav-item"><a href="#" class="nav-item">THE FOUNDERS</a></li>
+            </ul>
+            <a href="mailto:hello@jeadesign.com" class="nav-item contact-btn">CONTACT US</a>
+        </div>
+
+        <div class="hamburger-menu">
+            <button id="hamburger-btn">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="side-menu" id="side-menu">
+        <div class="header">
+            <div class="logo">
+                <img src="/images/common/jea-logo.svg" alt="Logo">
+            </div>
+            <button class="close-btn" id="close-btn">&times;</button>
+        </div>
+        <ul>
+            <li><a href="#" class="nav-item">ABOUT JEA</a></li>
+            <li><a href="#" class="nav-item">OUR PROCESS</a></li>
+            <li><a href='#' class="nav-item">THE FOUNDERS</a></li>
+            <li><a href="mailto:hello@jeadesign.com" class="nav-item">CONTACT US</a></li>
+        </ul>
+    </div>
+
+
+    <section class="banner">
+        <video autoplay loop muted playsinline>
+            <source src="./images/raw/jea-banner-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="banner-content container">
+            <div class="text-container">
+                <span class="banner-text">18,000 sq. ft. mansion at Jumeirah Islands</span>
+            </div>
+            <div class="line-container">
+                <img src="./images/common/star.svg" class="banner-img" alt="Star">
+                <span class="banner-line"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects p-4">
+        <div class="container">
+            <div class="d-flex position-relative z-2 justify-content-between gap-4 align-items-center py-4">
+                <h4>More than 350,000 sq. ft. currently under construction.<br />
+                    Over 100 completed projects in the ultra luxury interiors segment</h4>
+                <a target="_blank" class="custom-btn d-md-block d-none">
+                    <span class="text">
+                        VIEW PROJECTS
+                    </span>
+                    <span class="star-icon">
+                        <img src="./images/common/star-2.svg">
+                    </span>
+                </a>
+            </div>
+            <div class="projects-images-wrapper pb-md-5 pb-4">
+                <div class="project-wrap">
+                    <figure class="project-wrap-figure">
+                        <img src="/images/projects/project-1.jpg" alt="Project 1" class="d-md-block d-none">
+                        <img src="/images/projects/project-1-mobile.jpg" alt="Project 1 Mobile"
+                            class="d-md-none d-block">
+                        <span class="bottom-text d-md-block d-none">14,000 sq ft restaurant and bar constructed over 5
+                            floors</span>
+                    </figure>
+                </div>
+            </div>
+            <a target="_blank" class="custom-btn d-md-none d-block">
+                <span class="text">
+                    VIEW PROJECTS
+                </span>
+                <span class="star-icon">
+                    <img src="./images/common/star-2.svg">
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <section class="preview-work preview-work-1 bottom-text-figure">
+        <figure class="w-100 h-100 mb-0 bg-figure preview-figure-1">
+            <img src="/images/previews/preview-1.jpg" alt="" class="w-100 h-100 object-fit-cover d-md-block d-none">
+            <img src="/images/previews/preview-1-mobile.jpg" alt=""
+                class="w-100 h-100 object-fit-cover d-md-none d-block">
+        </figure>
+        <span class="bottom-text">11,000 sq ft duplex</span>
+    </section>
+
+    <section class="custom-section py-4">
+        <div class="about-figure-wrap">
+            <figure class="about-figure">
+                <img src="./images/about/about-ea/about-ea-1.jpg" alt="About Abra">
+            </figure>
+        </div>
+        <div class="content-wrapper">
+            <div class="container about-container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="display-5 mb-4">About
+                            Essajees Atelier</h3>
+                        <div class="mb-4">
+                            <svg width="40" height="40" viewBox="0 0 50 50" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z" />
+                            </svg>
+                        </div>
+                        <p class="mb-3">With more than 350,000 sq. ft. spaces currently under construction across 12
+                            cities, and over 100 completed projects in the ultra luxury interiors segment, Essajees
+                            Atelier is a rapidly expanding brand that has become synonymous with bespoke luxury interior
+                            projects.</p>
+                        <p class="mb-3">Headed by Sarah Sham, and founded as an extension of her family’s 130 year old
+                            antiques dealership, Essajees Atelier is Sarah’s endeavour to bring her family’s legacy into
+                            the 21st century. With Jea, Essajees Atelier brings its razor-sharp attention to detail and
+                            second-to-none understanding of the interiors segment to luxury spaces in the Middle East
+                            region.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="preview-work preview-work-1 bottom-text-figure">
+        <figure class="w-100 h-100 mb-0 bg-figure preview-figure-1">
+            <img src="/images/previews/preview-2.jpg" alt="" class="w-100 h-100 object-fit-cover d-md-block d-none">
+            <img src="/images/previews/preview-2-mobile.jpg" alt=""
+                class="w-100 h-100 object-fit-cover d-md-none d-block">
+        </figure>
+        <span class="bottom-text">5,000 sq ft duplex</span>
+    </section>
+
+    <section class="custom-section py-4">
+        <div class="about-figure-wrap">
+            <figure class="about-figure">
+                <img src="./images/about/about-abra/about-abra-1.jpg" alt="About Abra">
+            </figure>
+        </div>
+        <div class="content-wrapper">
+            <div class="container about-container">
+                <div class="row">
+                    <div class="col-lg-12 py-5">
+                        <h3 class="display-5 mb-4">About Abra</h3>
+                        <div class="mb-4">
+                            <svg width="40" height="40" viewBox="0 0 50 50" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z" />
+                            </svg>
+                        </div>
+                        <p class="mb-3">Abra is a 30+ year old family business, headquartered in Dubai, delivering
+                            luxury
+                            brand spaces from Dubai to the world. They operate the region's largest purpose-built
+                            facility
+                            that caters to bespoke joinery and quality shopfitting in luxury retail.</p>
+                        <p class="mb-3">Spanning approximately 200,000 sq. ft. of manufacturing space, and over 30+
+                            years of
+                            industry experience, Abra is a well-established brand, synonymous with delivering the
+                            highest
+                            quality, bespoke spaces across the globe from their facilities in UAE and Saudi Arabia. With
+                            a
+                            350+ strong team and comprehensive in-house capabilities, they have delivered stunning
+                            projects
+                            for leading retail locations across the world. Abra is also a partner of choice for top
+                            luxury
+                            conglomerates such as COTY, PUIG, L'oreal and LVMH.</p>
+                        <p>At Jea, Abra brings their technical expertise and on-ground experience, with the promise of
+                            superior quality and professionalism in every project they execute.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="preview-section">
+        <div class="container-fluid p-0">
+            <div class="row gx-4 preview-row">
+                <div class="col-6 py-3 preview-col">
+                    <img src="./images/previews/preview-3.jpg" alt="" class="d-md-block d-none">
+                    <img src="./images/previews/preview-3-mobile.jpg" class="d-md-none d-block">
+                </div>
+                <div class="col-6 py-3 preview-col">
+                    <img src="./images/previews/preview-3.2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row gx-4 preview-row">
+                <div class="col-5 py-3 d-flex flex-column gap-4 preview-col preview-col-stack">
+                    <div class="flex-grow-1">
+                        <img src="./images/previews/preview-4.jpg" alt="" class="d-md-block d-none">
+                        <img src="./images/previews/preview-4-mobile.jpg" class="d-md-none d-block" />
+                    </div>
+                    <div class=" flex-grow-1">
+                        <img src="./images/previews/preview-5.jpg" alt="" class="d-md-block d-none">
+                        <img src="./images/previews/preview-5-mobile.jpg" class="d-md-none d-block" />
+                    </div>
+                </div>
+                <div class=" col-7 py-3 preview-col">
+                    <img src="./images/previews/preview-6.jpg" alt="" class="d-md-block d-none">
+                    <img src="./images/previews/preview-6-mobile.jpg" class="d-md-none d-block" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="briefing-section py-4">
+        <div class="heading text-center">
+            <h1>We are a global luxury interior design company offering end-to-end services, from design
+                to handover</h1>
+        </div>
+        <div class="briefing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 briefing-content">
+                        <figure>
+                            <img src="./gifs/process/briefing.gif" alt="Briefing GIF" />
+                        </figure>
+
+                        <div class="briefing-text">
+                            <div>
+                                <svg width="20" height="20" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                                        fill="#ddb46f" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3>Briefing</h3>
+                                <p>
+                                    We begin with an exhaustive questionnaire to fully understand the client's needs and
+                                    expectations. The most important of all steps.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="briefing-image">
+                <img src="./images/process/briefing.jpg" alt="Briefing Image" class="d-none d-md-block">
+                <img src="./images/process/briefing-mobile.jpg" alt="Briefing Image" class="d-block d-md-none">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us py-4">
+        <div class="container contact-container">
+            <div class="text-center mb-4">
+                <h1>Looking to elevate your luxury space?</h1>
+            </div>
+            <div class="row gx-4 mb-4">
+                <div class="col-12 col-lg-3 col-md-6 text-center center-card">
+                    <figure>
+                        <img src="./gifs/contact/40-years-exp.gif" alt="40+ years experience">
+                    </figure>
+                    <p>40+ years of cumulative</br> experience</p>
+                    <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-center center-card">
+                    <figure>
+                        <img src="./gifs/contact/presence.gif" alt="40+ years experience">
+                    </figure>
+                    <p>Physical presence in</br>the Middle East</p>
+                    <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-center center-card">
+                    <figure>
+                        <img src="./gifs/contact/team.gif" alt="40+ years experience">
+                    </figure>
+                    <p>Expansive </br> on-ground team</p>
+                    <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                            fill="black" />
+                    </svg>
+                </div>
+                <div class="col-12 col-lg-3 col-md-6 text-center center-card">
+                    <figure>
+                        <img src="./gifs/contact/luxury.gif" alt="40+ years experience">
+                    </figure>
+                    <p>Experts in the </br> super luxury segment</p>
+                    <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                            fill="black" />
+                    </svg>
+                </div>
+            </div>
+            <div class="text-center contact-btm-text">
+                <p>For all project inquiries, please email hello@jeadesign.com with the subject NEW
+                    PROJECT
+                </p>
+                <button class="contact-btn">CONTACT US</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial py-4">
+        <div class="container testimonial-container">
+            <div class="row flex-column-reverse flex-md-row justify-content-center align-items-center">
+                <!-- Testimonial Image -->
+                <div class="testimonial-image col-12 col-md-4 text-center mb-4 mb-md-0">
+                    <img src="./images/raw/Watermark_Images new/Testimonial/After.jpg" class="img-fluid"
+                        alt="Testimonial Image">
+                </div>
+
+                <!-- Testimonial Text -->
+                <div class="testimonial-text col-12 col-md-8">
+                    <!-- Left Quotation Mark -->
+                    <div class="mb-md-5">
+                        <svg width="201" height="141" viewBox="0 0 201 141" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M85.8274 90.1728C87.9353 103.097 92.5304 114.927 101.847 124.399C115.127 137.955 131.694 142.165 150.075 139.892C183.421 135.766 206.143 103.013 198.682 70.302C193.159 46.0529 173.893 28.9606 148.135 25.5927C145.437 25.2559 145.227 24.1614 145.648 22.0564C146.829 16.1204 149.021 10.6054 151.803 5.25884C153.363 2.22771 152.225 0.417439 148.768 0.459538C143.667 0.459539 138.945 2.05932 134.392 4.20637C117.867 11.9947 105.304 24.2034 95.7343 39.5696C88.6941 50.8522 84.4784 63.0609 84.6892 77.964C84.5206 81.0794 85.0264 85.6261 85.7431 90.1307L85.8274 90.1728ZM96.7039 49.3787C105.768 31.6129 118.921 17.8044 137.09 9.08986C138.861 8.24788 140.8 7.7006 142.697 7.02701C143.245 6.81652 143.878 6.52181 144.341 7.02701C144.805 7.5322 144.299 8.12159 144.088 8.62677C141.728 14.4365 139.873 20.3303 139.788 26.6873C139.788 29.8447 140.336 30.5183 143.456 30.6867C158.548 31.4445 171.364 37.0437 181.482 48.4104C189.112 56.9987 193.328 67.0603 194.34 78.5534C196.7 106.381 176.549 130.63 149.737 134.461C147.208 134.84 144.594 134.924 143.161 135.05C128.027 134.798 115.464 130.798 105.557 120.442C97.1677 111.643 93.0784 100.782 91.2235 88.9519C89.0314 75.2276 90.3382 61.9243 96.7039 49.4208L96.7039 49.3787Z"
+                                fill="#DDB46F" />
+                            <path
+                                d="M2.99949 95.3932C6.49852 110.296 13.5388 123.01 26.6917 131.598C38.7065 139.471 52.0703 141.744 66.1085 139.892C100.129 135.387 122.515 102.803 114.673 69.4601C109.109 45.8004 89.6743 28.7924 64.2536 25.5508C61.7242 25.214 61.4291 24.2457 61.8507 22.1828C63.0311 16.1626 65.2654 10.5635 68.0477 5.17478C69.5654 2.26995 68.385 0.45969 65.1389 0.459691C60.0379 0.459691 55.2742 2.01735 50.7634 4.16442C34.2378 11.9528 21.6329 24.1194 12.0632 39.4435C4.98087 50.8102 0.680863 63.0611 0.933802 77.9221C0.765177 83.0161 1.56615 89.2467 2.99949 95.4353L2.99949 95.3932ZM12.7799 49.5473C21.8437 31.6551 35.0388 17.8045 53.2928 9.09C55.1055 8.24802 57.0026 7.70073 58.8997 7.02715C59.4477 6.81666 60.1222 6.52195 60.5016 7.15343C60.6703 7.49022 60.4595 8.12172 60.2908 8.54271C58.3516 13.1736 56.9604 17.8887 56.1595 22.8564C55.0634 29.8028 55.6536 30.6027 62.6516 31.1078C87.0184 32.876 107.127 51.8627 110.289 75.9855C113.999 104.445 93.9743 130.714 65.6026 134.545C63.1154 134.882 60.6281 134.924 59.2791 135.051C44.0604 134.756 31.4555 130.714 21.5486 120.19C13.2858 111.391 9.23874 100.571 7.42599 88.8679C5.27598 75.2277 6.54067 62.0086 12.8642 49.5894L12.7799 49.5473Z"
+                                fill="#DDB46F" />
+                        </svg>
+                    </div>
+
+                    <div class="text-content">
+                        <h2>18,000 sq.ft. of pure luxury at Jumeirah Islands</h2>
+                        <p>
+                            “Working with Sarah and her team has been an absolute delight. They perfectly captured our
+                            vision for an earthy, contemporary design that feels both sophisticated and deeply connected
+                            to nature. The use of plants throughout the space not only brings a vibrant touch of green
+                            but also creates a calming and inviting atmosphere. Sarah listened to our needs and
+                            translated them into a space that truly reflects our personality and lifestyle. Their
+                            attention to detail and ability to blend functionality with aesthetics is unparalleled. We
+                            couldn't be happier with the outcome and highly recommend Sarah for anyone looking to
+                            transform their space into a beautiful and serene sanctuary.”
+                        </p>
+                        <h3>- Moujhuri, on her mansion’s transformation</h3>
+                    </div>
+
+                    <!-- Right Quotation Mark -->
+                    <div>
+                        <svg width="200" height="141" viewBox="0 0 200 141" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="float-end">
+                            <path
+                                d="M114.372 50.7355C112.264 37.8112 107.669 25.9814 98.3528 16.5092C85.0735 2.9534 68.5061 -1.25648 50.1258 1.01686C16.7801 5.14254 -5.94222 37.8954 1.51947 70.6062C7.04196 94.8551 26.3075 111.947 52.065 115.315C54.7631 115.652 54.9738 116.746 54.5523 118.851C53.3719 124.787 51.1798 130.302 48.3974 135.649C46.8376 138.68 47.9759 140.49 51.4327 140.448C56.5336 140.448 61.2551 138.848 65.808 136.701C82.3334 128.913 94.896 116.704 104.465 101.338C111.506 90.0558 115.721 77.8472 115.51 62.9442C115.679 59.8289 115.173 55.2822 114.457 50.7776L114.372 50.7355ZM103.496 91.5293C94.4323 109.295 81.2795 123.103 63.11 131.818C61.3395 132.66 59.4003 133.207 57.5032 133.881C56.9552 134.091 56.3228 134.386 55.8591 133.881C55.3954 133.375 55.9013 132.786 56.1121 132.281C58.4728 126.471 60.3277 120.577 60.412 114.221C60.412 111.063 59.864 110.39 56.7444 110.221C41.6524 109.463 28.8368 103.864 18.7193 92.4975C11.089 83.9094 6.87334 73.8478 5.86158 62.3548C3.50082 34.5275 23.6516 10.2786 50.4631 6.4476C52.9925 6.06871 55.6062 5.98451 57.0395 5.85822C72.1737 6.11081 84.7363 10.1102 94.6431 20.4665C103.032 29.2651 107.121 40.1266 108.976 51.9564C111.168 65.6806 109.862 78.9838 103.496 91.4872V91.5293Z"
+                                fill="#DDB46F" />
+                            <path
+                                d="M197.199 45.5151C193.7 30.6121 186.66 17.8983 173.507 9.31016C161.493 1.43769 148.129 -0.835647 134.091 1.0167C100.071 5.52127 77.6857 38.1057 85.5268 71.448C91.0914 95.1075 110.526 112.115 135.946 115.357C138.475 115.694 138.77 116.662 138.349 118.725C137.168 124.745 134.934 130.344 132.152 135.733C130.634 138.638 131.815 140.448 135.061 140.448C140.162 140.448 144.925 138.89 149.436 136.743C165.961 128.955 178.566 116.788 188.136 101.464C195.218 90.0977 199.518 77.847 199.265 62.9861C199.434 57.8922 198.633 51.6615 197.199 45.473V45.5151ZM187.419 91.3607C178.355 109.253 165.16 123.103 146.907 131.818C145.094 132.66 143.197 133.207 141.3 133.88C140.752 134.091 140.077 134.386 139.698 133.754C139.529 133.417 139.74 132.786 139.909 132.365C141.848 127.734 143.239 123.019 144.04 118.051C145.136 111.105 144.546 110.305 137.548 109.8C113.181 108.032 93.0728 89.0453 89.9111 64.9227C86.2013 36.4639 106.226 10.1942 134.597 6.36325C137.084 6.02646 139.571 5.98436 140.92 5.85806C156.139 6.15275 168.744 10.1942 178.65 20.7189C186.913 29.5176 190.96 40.337 192.773 52.0404C194.923 65.6804 193.658 78.8995 187.335 91.3186L187.419 91.3607Z"
+                                fill="#DDB46F" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="founders py-4">
+        <div class="container founder-container">
+            <div class="py-4">
+                <h3 class="text-center">The Founders</h3>
+            </div>
+            <div class="row">
+                <div class="founder col-md-4">
+                    <div class="founder-text p-3">
+                        <p>Sarah Sham</p>
+                        <p>CO-FOUNDER, JEA</p>
+                    </div>
+                    <div class="position-relative">
+                        <img src="./images/raw/Watermark_Images new/The Founders/IMG_1021 1.jpg" alt=""
+                            class="img-fluid">
+                        <div class="founder-star-icon" style="
+                        top: 50%;
+                        left: 0;
+                        transform: translate(-50%);">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                                    fill="#1E2619" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="founder col-4 d-md-block d-none">
+                    <div class="founder-text p-3">
+                        <p>Anand Kumar</p>
+                        <p>DIRECTOR, JEA</p>
+                    </div>
+                    <div class="position-relative">
+                        <img src="./images/raw/Watermark_Images new/The Founders/Anand 1.jpg" alt="" class="img-fluid">
+                        <div class="founder-star-icon" style="
+                        top: 50%;
+                        right: 0;
+                        transform: translate(50%,-50%);">
+                            <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                                    fill="#1E2619" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="founder col-4 d-md-block d-none">
+                    <div class="founder-text p-3">
+                        <p>Indu Govindan</p>
+                        <p>CO-FOUNDER, JEA</p>
+                    </div>
+                    <div class="position-relative">
+                        <img src="./images/raw/Watermark_Images new/The Founders/IA-13 1.jpg" alt="" class="img-fluid">
+                        <div class="founder-star-icon" style="
+                        top: 0;
+                        right: 0;
+                        transform: translate(50%,-50%);">
+                            <svg width=" 50" height="50" viewBox="0 0 50 50" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M25 50C25 36.1974 13.8087 25 0 25C13.8026 25 25 13.8087 25 0C25 13.8026 36.1913 25 50 25C36.1974 25 25 36.1913 25 50Z"
+                                    fill="#1E2619" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="article py-4">
+        <div class="article-text mb-5">
+            <h1>Press & Articles</h1>
+            <h2>MAGAZINE COVERS</h2>
+        </div>
+        <div class="splide" role="group" aria-label="Magazine Covers Slider">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="./images/articles/article-1.jpg" alt="Magazine Cover 1"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-2.jpg" alt="Magazine Cover 2"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-3.jpg" alt="Magazine Cover 3"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-4.jpg" alt="Magazine Cover 4"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-5.jpg" alt="Magazine Cover 5"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-6.jpg" alt="Magazine Cover 6"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-7.jpg" alt="Magazine Cover 7"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-8.jpg" alt="Magazine Cover 8"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-9.jpg" alt="Magazine Cover 9"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-10.jpg" alt="Magazine Cover 10"></li>
+                    <li class="splide__slide"><img src="./images/articles/article-11.jpg" alt="Magazine Cover 11"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="news py-4">
+        <div class=" container news-container">
+            <div class="py-4 text-center">
+                <p>News</p>
+            </div>
+            <div class="row gx-4 gy-4">
+                <div class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center">
+
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/architectural-digest.jpg">
+                    </figure>
+                    <div class="news-text">
+                        <p>Meet the architects and designers who design the homes of Indian celebrities</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/telegraph.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>Design advices for millennials is to
+                            keep it fun and personal</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/vogue.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>From Shillong to Chennai. Goato Delhi, meet the new guard of design in India</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center">
+
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/twp.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>How to make room for a baby when you don’t have space for a nursery?</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/architectural-digest.jpg">
+                    </figure>
+                    <div class="news-text">
+                        <p>NYC-based streetwear brand, Extra Butter's new store in Mumbai is an homage to both cities
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/decor.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>The creative behind Essajees Atelier takes us through her new Mumbai office and her best kept
+                            design secrets!</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/architect-logo.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>Meet the architects and designers who design the homes of Indian celebrities</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/india-today.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>Learn the inspiration behind Essajees Atelier’s collaboration with Bharat Floorings & Tiles
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/architectural-digest.jpg">
+                    </figure>
+                    <div class="news-text">
+                        <p>Decor | Time to stand out</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/ht-logo.jpg">
+                    </figure>
+                    <div class="news-text">
+                        <p>Rü, a new restaurant in Hyderabad, emerges amid ancient boulders</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/architect-logo.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>The Evolution of Interior Designer Sarah Sham</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-4 news-card d-flex flex-column justify-content-center d-md-block d-none">
+                    <figure class="news-img">
+                        <img class="img-fluid" src="./images/news/good-homes.png">
+                    </figure>
+                    <div class="news-text">
+                        <p>The Evolution of Interior Designer Sarah Sham</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="news-btn">CONTACT US</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="awards-section">
+        <div class="container">
+            <div class="awards-title">
+                <h1>Awards</h1>
+            </div>
+            <div class="splide" id="awards-splide" role="group" aria-label="Awards Slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/cwab-1.jpg" alt="Award 1 Logo">
+                                </div>
+                                <h5 class="award-title">Best Design Award</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/forbes.jpg" alt="Award 2 Logo">
+                                </div>
+                                <h5 class="award-title">Innovation Excellence</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/good-homes.jpg" alt="Award 3 Logo">
+                                </div>
+                                <h5 class="award-title">Customer Satisfaction</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/good-homes.jpg" alt="Award 4 Logo">
+                                </div>
+                                <h5 class="award-title">Sustainability Champion</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/houzz-2018.jpg" alt="Award 4 Logo">
+                                </div>
+                                <h5 class="award-title">Sustainability Champion</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/houzz-2019.jpg" alt="Award 3 Logo">
+                                </div>
+                                <h5 class="award-title">Customer Satisfaction</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/houzz-2020.jpg" alt="Award 2 Logo">
+                                </div>
+                                <h5 class="award-title">Innovation Excellence</h5>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="award-item">
+                                <div class="award-image">
+                                    <img src="./images/awards/i-decorama.jpg" alt="Award 1 Logo">
+                                </div>
+                                <h5 class="award-title">Best Design Award</h5>
+                            </div>
+                        </li>
+                        <!-- Add more slides as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+
+    <script>
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const sideMenu = document.getElementById('side-menu');
+        const closeBtn = document.getElementById('close-btn');
+
+        hamburgerBtn.addEventListener('click', () => {
+            sideMenu.classList.add('open');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            sideMenu.classList.remove('open');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!sideMenu.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+                sideMenu.classList.remove('open');
+            }
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('.splide', {
+                type: 'loop',
+                perPage: 5,
+                perMove: 1,
+                gap: '1rem',
+                autoplay: true,
+                interval: 3000,
+                pagination: true,
+                arrows: false,
+                breakpoints: {
+                    1024: {
+                        perPage: 3,
+                    },
+                    768: {
+                        perPage: 2,
+                    }
+                },
+            }).mount();
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#awards-splide', {
+                type: 'loop',
+                perPage: 5,
+                perMove: 1,
+                autoplay: true,
+                interval: 2500,
+                pagination: true,
+                arrows: false,
+                gap: '1rem',
+                breakpoints: {
+                    1024: {
+                        perPage: 3,
+                    },
+                    768: {
+                        perPage: 3,
+                    },
+                    576: {
+                        perPage: 2,
+                    }
+                },
+            }).mount();
+        });
+
+    </script>
+</body>
+
+<footer>
+    <section class="footer">
+        <!-- Main footer section -->
+        <div class="container footer-container d-flex flex-wrap flex-md-row">
+            <div class="footer-left col-md-6 mb-4 mb-md-0">
+                <figure class="footer-img">
+                    <img src="./images/common/jea-logo-2.svg" alt="Jea Logo">
+                </figure>
+                <p class="mb-3">Abra Building, Unit C.<br /> 38, Dubai Production City, Dubai, UAE</p>
+                <div class="footer-icons mb-3">
+                    <img src="./images/raw/insta.svg" alt="Instagram">
+                    <img src="./images/raw/linkden.svg" alt="LinkedIn">
+                    <img src="./images/raw/mail.svg" alt="Email">
+                </div>
+            </div>
+            <div class="footer-right col-md-6">
+                <h1 class="mb-3">Schedule an Appointment</h1>
+                <div class="input-button-wrapper mb-4">
+                    <input type="email" placeholder="Enter your Email">
+                    <button>Get in Touch</button>
+                </div>
+                <ul class="d-flex flex-wrap justify-content-between mb-0">
+                    <li>ABOUT JEA</li>
+                    <li>OUR PROCESS</li>
+                    <li>ABOUT Essajees ARELIER</li>
+                    <li>ABOUT ABRA</li>
+                    <li>THE FOUNDERS</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom footer section -->
+        <div class="container py-3">
+            <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="text-center text-md-start mb-2 mb-md-0">
+                    <p>© Jea 2024. All Rights Reserved</p>
+                </div>
+                <div class="text-center text-md-end">
+                    <p>Designed by Independent Creators Collective & Developed by Ideamagix.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+
+</html>
